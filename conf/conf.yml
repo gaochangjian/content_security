@@ -1,0 +1,17 @@
+accessKeyId: LTAI4G13dA5au8qaKBy3dmFD
+accessKeySecret: yVyX8n0AZWrDJVqpta3KgmNbGZfXLn
+
+redis_queue:
+  key: MC::Queue
+  host: 192.168.2.15:6379
+  password: 3e2e1c913d27b3a4f45e3b275a01c84b26fb29
+  db: 0
+
+image:
+  path: /green/image/scan
+  scenes: porn|terrorism|ad|live|qrcode|logo
+  biz_type: test
+taxt:
+  path: /green/text/scan
+  biz_type: test
+  scenes: antispam
